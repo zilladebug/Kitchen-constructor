@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+    <link href="assets/style.css" rel="stylesheet" type="text/css" />
+    <link href="assets/stylesheet.css" rel="stylesheet" type="text/css" />
+    <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+
+</head>
+
+<body>
+    <header id="myHeader">
+        <div id="topNav" class="top">
+            <a href="index.html">
+                <div id="logo">
+
+                </div>
+            </a>
+            <a href="#" id="topSearch">
+                <i class="fas fa-search"></i>
+            </a>
+            <a href="#" id="mobileMenu">
+                <i class="fas fa-bars"></i>
+            </a>
+        </div>
+        <div class="top menu">
+            <nav>
+                <ul id="mainMenu">
+                    <li>
+                        <a href="index.html">Home</a>
+                    </li>
+                    <li>
+                        <a href="constructor.html">Design Own Kitchen</a>
+                    </li>
+                    <li>
+                        <a href="#">Catalog</a>
+                    </li>
+                    <li>
+                        <a href="#">About</a>
+                    </li>
+                </ul>
+            </nav>
+            <nav>
+                <ul id="secondMenu">
+                    <li>
+                        <a href="#">Business</a>
+                    </li>
+                    <li>
+                        <a href="#">Support</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <div id="container">
+        <div class="banner">
+            <h1>Design your own Kitchen!</h1>
+        </div>
+        <div id="constructor">
+            <canvas id="c" width=1400 height=600>
+
+            </canvas>
+            <div id="dragMenu">
+                <div class="selector">
+                    <div class="box" id="box1">
+                        <h2 style="color:#ededed;">WALL</h2>
+                    </div>
+                    <div class="box" id="box2">
+                        <h2 style="color:#ededed;">DOOR</h2>
+                    </div>
+                    <div class="box" id="box3">
+                        <h2 style="color:#ededed;">WINDOW</h2>
+                    </div>
+                    <div class="box" id="box4">
+                        <h2 style="color:#ededed;">CABIN</h2>
+                    </div>
+                    <div class="box" id="box5">
+                        <h2 style="color:#ededed;">ISLAND</h2>
+                    </div>
+                    <div class="box" id="box6">
+                            <h2 style="color:#ededed;">STOVE</h2>
+                    </div>
+                    <div class="box" id="box7">
+                            <h2 style="color:#ededed;">FRIDGE</h2>
+                    </div>
+                    <div class="box" id="box8">
+                            <h2 style="color:#ededed;">DISHWASHER</h2>
+                    </div>
+                    <div class="box" id="box9">
+                            <h2 style="color:#ededed;">KITCHEN HOOD</h2>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+        <div id="constructorMenu">
+            <button id="dlt">
+                DELETE SELECTED<br>
+                <b>or press the delete button</b>
+            </button>
+
+            <button id="save">
+                SAVE
+            </button>
+        </div>
+    </div>
+
+    <footer>
+        <div class="footerContent">
+            <div class="footerBox">
+
+            </div>
+            <div class="footerBox">
+
+            </div>
+            <div class="footerBox">
+
+            </div>
+        </div>
+    </footer>
+
+    <script src="assets/fabric.min.js"></script>
+    <script src="assets/jsfile.js"></script>
+    <script src="assets/canvas.js"></script>
+
+
+</body>
+
+</html>

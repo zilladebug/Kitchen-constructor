@@ -1,0 +1,382 @@
+body{
+    overflow-y:  scroll;
+    background-image: url(pattern1.png);
+    font-family: 'Poppins', sans-serif;
+ 
+}
+
+header{
+    width: 100%;
+    height: auto;
+    position: fixed;
+    z-index: 999;
+}
+
+
+.sticky #topNav #logo{
+    padding: 25px;
+    padding-left: 75px;
+    padding-right: 75px;
+    webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -ms-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+}
+
+.sticky #topNav #topSearch{
+    font-size: 30px;
+    margin: 20px;
+    webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -ms-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+}
+
+
+
+.top{
+    width: 100%;
+    height: auto;
+    background-image: url(pattern2.png);
+    display: flex;
+    justify-content: space-between;
+    webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -ms-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+}
+
+.menu{
+    border-top: solid 5px #ededed;
+    border-bottom: solid 5px #ededed;
+    box-shadow:0px 0px 10px #1f1f1f;
+}
+nav{
+    width: 100%;
+    height: auto;
+
+}
+
+nav #mainMenu{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: flex-start;
+}
+
+nav #secondMenu{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+nav ul li{
+    margin:20px;
+
+}
+
+nav ul li a{
+    text-transform: uppercase;
+    color: #ededed;
+    text-decoration: none;
+    font-size: 24px;
+    border-bottom:solid  0px rgba(255,255,255,1);
+    webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -ms-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+}
+
+nav ul li a:hover{
+    border-bottom:solid  4px rgba(255,255,255,1);
+    webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -ms-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+} 
+
+.top #logo {
+    padding: 50px;
+    padding-left: 125px;
+    padding-right: 135px;
+    text-align: center;
+    font-family: roboto;
+    font-size: 60px;
+    color: #fff;
+    margin: 10px;
+    background-image: url(Logo_small.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#topSearch{
+    font-size: 50px;
+    margin: 20px;
+    color: #ededed;
+}
+
+#mobileMenu{
+    font-size: 50px;
+    margin: 20px;
+    color: #ededed;
+    display: none;
+}
+#container {
+    width: 100%;
+    height: auto;
+    min-height: 800px;
+    padding-top: 190px;
+    webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -ms-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+}
+
+.adjust{
+    padding-top: 140px!important;
+    webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -ms-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+}
+
+/*CONSTRUCTOR.HTML*/
+.banner{
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-image: url(low_1.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.banner h1{
+   text-align: center;
+   font-size: 50px;
+   background-color:  rgba(0,0,0,0.6);
+   padding-top: 50px;
+    padding-bottom: 50px;
+    color: #ededed;
+}
+#constructor{
+    width: 100%;
+    height: auto;
+    min-height: 400px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5px;
+    border-top: 100px solid;
+    border-image: url(pattern2.png) 50 round;
+
+}
+
+#constructor .canvas-container{
+ width: 70%!important;
+ height: 600px!important;
+ overflow: hidden;
+}
+
+#dragMenu{
+    width: 30%;
+    height: 600px;;
+    padding: 20px;
+    -moz-box-sizing: border-box; 
+    -webkit-box-sizing: border-box; 
+     box-sizing: border-box; 
+     background-image: url(pattern2.png);
+}
+
+.selector{
+   width: 100%;
+   height: 560px;
+   background-color: #ededed;
+   overflow-y: scroll;
+   -moz-box-sizing: border-box; 
+   -webkit-box-sizing: border-box; 
+    box-sizing: border-box; 
+    padding: 20px;
+}
+
+.selector .box{
+    width: 100%;
+    height: 200px;
+    background-color: #1f1f1f;
+    margin-bottom: 10px;
+    cursor:pointer;
+}
+.selector .box h2{
+    text-align: center;
+    font-size: 24px;
+    line-height: 200px;
+}
+
+
+
+#constructorMenu{
+    width: 100%;
+    height: auto;
+    min-height: 200px;
+    background-image: url(pattern2.png);
+}
+
+#constructorMenu button{
+    float: left;
+    display: inline-block;
+    padding: 10px;
+    margin:10px;
+    
+    height: 50px;
+    min-width: 100px;
+    background: #ededed;
+    border: none;
+    outline: none;
+    color: #1f1f1f;
+    font-family: inherit;
+    font-weight: 400;
+    font-size: 20px;
+    border-radius: 3px;
+    box-shadow: 0 5px 0px  #ededed70;
+    border-bottom: 2px solid #ededed70;
+    cursor: pointer;
+}
+
+#constructorMenu button b{
+    display: block;
+    font-size: 12px;
+    margin-top: -10px!important;
+}
+
+#constructorMenu button:hover{
+    background:  #a0a0a0;
+    box-shadow: 0 4px 1px #a0a0a070;
+    border-bottom: 2px solid  #a0a0a070;
+    transition: all 0.1s ease-in;
+}
+
+#constructorMenu button:active{
+    transform:translateY(4px);
+    border-bottom-width: 2px;
+    box-shadow: none;
+}
+
+
+
+
+.slider{
+    width: 100%;
+    height: 600px;
+    background-color: #1f1f1f;
+    border-top: solid 2px #000;
+    border-bottom: solid 2px #000;
+    float: left;
+}
+
+.slider:hover .sliderContent h2 {
+    text-shadow:0px 0px 10px #fff;
+    webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -ms-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+}
+.sliderContent{
+    width: 100%;
+    padding-top:220px;
+
+}
+.sliderContent h2{
+    width: 100%;
+    text-align: center;
+    color: #333333;
+    text-shadow:0px 0px 5px #000;
+    font-size: 6vw;
+    webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -ms-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+}
+
+
+footer{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    float: left;
+    margin-top: 50px;
+    background-image: url(pattern2.png);
+}
+
+.footerContent{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.footerBox{
+    width: 25%;
+    height: 200px;
+    background-color: #333333;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow:0px 0px 10px #000;
+}
+
+
+
+/*SCROLL*/
+::-webkit-scrollbar {
+    width: 12px;
+    border-left: solid 1px #1f1f1f;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background:#1f1f1f;
+}
+::-webkit-scrollbar-thumb:window-inactive {
+    background:#1f1f1f;
+}
+
+
+@media screen and (max-width: 1024px){
+
+.top #logo {
+    padding: 25px;
+    padding-left: 75px;
+    padding-right: 75px;
+}
+    nav #mainMenu{
+        display: none;
+    }
+    nav #secondMenu{
+        display: none;
+    }
+    #topSearch{
+        display: none!important;
+    }
+    #mobileMenu{
+        display: block!important;
+    }
+    #container {
+        padding-top:95px;
+    }
+}
+
